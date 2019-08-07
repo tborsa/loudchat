@@ -1,0 +1,37 @@
+.messages div{
+    background-color: lightcoral;
+    border-radius: 50px;
+    width: 40%;
+}
+.messages h3{
+    color: white;
+    text-align: left;
+}
+.messages p{
+    padding: 0.3vw;
+    color: white;
+}
+.messages .you{
+    margin-left: 60%;
+    background-color: lightblue;
+}
+.msg {
+    display:flex;
+    margin: 2vw;
+}
+.messages img{
+    display:inline-block;
+    height: 50px;
+    width: 50px;
+}
+.flex{
+    display: flex;
+}
+.container {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.message-input{
+    padding: 5vw;
+}
